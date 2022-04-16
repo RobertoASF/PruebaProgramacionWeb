@@ -10,12 +10,13 @@
 .marketing h2 {
     font-weight: 400;
   }
-  /* rtl:begin:ignore */
 .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem;
   }
-
+#parrafo_1{
+    text-align: center;
+  }
   .sidebar {
     grid-area: sidebar;
     background-color: #fdcfcf;

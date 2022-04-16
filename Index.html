@@ -14,12 +14,12 @@
   <link  href="css/estilos.css" rel="stylesheet">
 </head>
 
-<body style="background-image: url(https://fondosmil.com/fondo/16641.jpg) ;  background-repeat: repeat-y;">
+<body style=" background: linear-gradient(to bottom, rgb(172, 255, 255), white);">
 
   <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #c8dfef;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="Index.html">
           <img src="img/mascotas.logo.webp" alt="" width="40" height="34" class="d-inline-block align-text-top">DOGTOYS
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="tienda.html">tienda</a>
@@ -42,33 +42,35 @@
           <li class="nav-item ">
             <a class="nav-link" href="nosotros.html">Nosotros</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="Carrito.compras.html">Carrito de compras
+        </ul>
+        <ul>
+          <div class="nav-item "  style="right: 100px;">
+            <a class="nav-link" href="Carrito.compras.html">
             <img src="img/carrito.compras.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
             </a>
-          </li>
+          </div>
         </ul>
-        
       </div>
     </div>
   </nav>
 
   <!-- Carrusel -->
 
-  <hr size="40%" />
+  <hr size="60%" />
   <div class="container-fluid">
   <div class="row">
   <div class="col-8">
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-      <!-- Indicators/dots -->
+      <!-- Indicadores/puntos -->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
       </div>
 
-      <!-- The slideshow/carousel -->
+      <!-- presentación de diapositivas/carrusel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
@@ -95,9 +97,17 @@
             <p>We love the Big Apple!</p>
           </div>
         </div>
+        <div class="carousel-item">
+          <img src="https://s1.1zoom.me/b5955/97/Dogs_Golden_Retriever_Puppy_Grass_571188_1920x1080.jpg" alt="Chicago"
+            class="d-block w-100 rounded-circle img-fluid" >
+          <div class="carousel-caption">
+            <h3>Chicago</h3>
+            <p>Thank you, Chicago!</p>
+          </div>
+        </div>
       </div>
 
-      <!-- Left and right controls/icons -->
+      <!-- Controles/iconos izquierdo y derecho -->
       <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
@@ -109,10 +119,11 @@
 
     <div class="col-4">
       <div>
-        <img src="img/OP.webp" alt="" class="d-block w-100 img-fluid rounded">
+        <img src="img/OP.webp" alt="" class="d-block w-75 m-4 pb-4 rounded">
       </div>
+      
       <div>
-        <img src="img/OP.webp" alt="" class="d-block w-100 img-fluid rounded">
+        <img src="img/OP.webp" alt="" class="d-block w-75  m-4 pb-4 rounded">
       </div>
     </div>
 </div>
