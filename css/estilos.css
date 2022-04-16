@@ -15,3 +15,9 @@
     margin-right: .75rem;
     margin-left: .75rem;
   }
+
+  .sidebar {
+    grid-area: sidebar;
+    background-color: #fdcfcf;
+  }
+
