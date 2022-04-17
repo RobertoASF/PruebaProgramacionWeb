@@ -33,6 +33,7 @@ body{
     font-weight: lighter;
     color: #000000;
 }
+<<<<<<< HEAD
 .carro.compras{
   min-height: 80vh;
   max-width: 1000px;
@@ -60,3 +61,64 @@ body{
 .hide, .remove{
   display: none;
 } 
+=======
+
+
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 100%;
+  max-width: 400px;
+  margin: 2rem;
+  box-shadow: none;
+  background: none;
+}
+
+.card-side {
+  height: 35rem;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:2rem;
+  color: white
+}
+
+.card-side.back {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+}
+
+.card-side.front {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.card:hover .card-side.front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back {
+  transform: rotateY(0deg);
+}
+
+#us{
+  background: linear-gradient(to bottom, rgb(255, 255, 255), white);
+}
+
+.texto_tarjeta{
+  color: #3b0404;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.texto_tarjeta :hover{
+  color: #f7f7f7;
+  font-size: 16px;
+  font-weight: bold;
+}
+>>>>>>> bc6e3d397e414518ab93e5f0150127824cc9c94d
