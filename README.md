@@ -2,14 +2,14 @@
 primera prueba del curso de Programacion Web
 
 
-##Integrantes:
+## Integrantes:
 
--Roberto Sánchez
--Edgardo Soto
--Kevin Oyarzún
++ Roberto Sánchez
++ Edgardo Soto
++ Kevin Oyarzún
 
 
-##Mockups de la Página
+## Mockups de la Página
 
 INDEX
 ![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_index.jpeg)
