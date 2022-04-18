@@ -63,18 +63,20 @@ body{
 
 
 .card {
+  justify-content: center;
   perspective: 150rem;
   position: relative;
   height: 100%;
-  max-width: 400px;
+  max-width: 85%;
   margin: 2rem;
   box-shadow: none;
   background: none;
+  display: flex;
 }
 
 .card-side {
   height: 35rem;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: all 0.5s ease;
   backface-visibility: hidden;
   position: absolute;
@@ -82,7 +84,8 @@ body{
   left: 0;
   width: 100%;
   padding:2rem;
-  color: white
+  color: white;
+  
 }
 
 .card-side.back {
@@ -115,4 +118,30 @@ body{
   color: #f7f7f7;
   font-size: 16px;
   font-weight: bold;
+}
+
+
+.container-min-widths {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 90%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 560px;
+  min-height: max-content;
+}
+
+
+@media all and (max-width: 768px) {
+  nav {
+      justify-content: space-around;
+  }
+  nav a.logo {
+      flex: 100%;
+  }
+  .map {
+      height: calc(100vh - 96px);
+  }
 }
