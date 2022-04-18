@@ -20,3 +20,7 @@ TIENDA
 
 NOSOTROS
 ![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_nosotros.jpeg)
+
+CARRO
+![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_carro.jpeg)
+
