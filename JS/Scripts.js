@@ -59,4 +59,29 @@ function addItemCarrito(newItem){
     })
      
 }
-  
+/*llamada formulario*/
+$(document).ready(function() {
+  $('#div-btn1').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('Inc/Formulario.php');
+      return false;
+  });
+
+  $('#div-btn2').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/products.php');
+      return false;
+  });
+
+  $('#div-btn3').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/news.php');
+      return false;
+  });
+
+  $('#div-btn4').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/contact.php');
+      return false;
+  });
+});
