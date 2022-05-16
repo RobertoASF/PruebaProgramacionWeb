@@ -25,10 +25,28 @@ body{
   background: linear-gradient(to bottom, rgb(254, 247, 203), white);
 }
 
+nav{
+  padding-bottom: 150px;
+}
 .navbar{
   width: 100%;
-  height: 5%;
+  height: 56px;
 }
+
+
+#carr{
+
+  width: 100%;
+  padding-top: 90px;
+
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 439px;
+  
+}
+
 
 #subject{
   display: flexbox;
