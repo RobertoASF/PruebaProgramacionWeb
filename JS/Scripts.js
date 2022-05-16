@@ -85,3 +85,37 @@ $(document).ready(function() {
       return false;
   });
 });
+
+/*Enlaces a documentos php*/
+$(document).ready(function() {
+  $('#div-btn1').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/donaciones.php');
+      return false;
+  });
+
+  $('#div-btn2').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/tienda.php');
+      return false;
+  });
+
+  $('#div-btn3').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/contacto.php');
+      return false;
+  });
+
+  $('#div-btn4').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/nosotros.php');
+      return false;
+  });
+
+  $('#div-btn0').on('click', function() {
+      $('.navbar-nav li').removeClass('active');
+      $("#central").load('inc/carrito.php');
+      return false;
+  });
+
+  });

@@ -1,48 +1,24 @@
-<script type="text/javascript">
-    $(document).ready(function() {
-      $('#div-btn5').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/aves.php');
-          return false;
-      });
-
-      $('#div-btn6').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/gatos.php');
-          return false;
-      });
-
-      $('#div-btn7').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/perros.php');
-          return false;
-      });
-
-    });    
-  </script>
-
-
+<script src="JS/tienda.js"></script>
 <br><br>
+
 <div id="central">
-
-<container>
-<div class="sidenav">
-  <a class="nav-link" id="div-btn7" href="#">Perritos 🐶</a>
-  <a class="nav-link" id="div-btn6" href="#">Gatitos 🐱</a>
-  <a class="nav-link" id="div-btn5" href="#">Aves 🦜</a>
-
-</div>
-
+  <container>
+    <div class="sidenav">
+      <a class="nav-link" id="div-btn7" href="#">Perritos 🐶</a>
+      <a class="nav-link" id="div-btn6" href="#">Gatitos 🐱</a>
+      <a class="nav-link" id="div-btn5" href="#">Aves 🦜</a>
+    </div>
+    </container>
 
 
-
-  <div id="central">
-    <div id="central-content">
+    <container>
+    <div id="central">
+      <div id="central-content">
         <div class="jumbotron">
-        <div class="container">
+          <div class="container">
 
 
-</container>
+
   <div class="support-grid"></div>
 
   <div class="band">
@@ -123,7 +99,9 @@
         </article>
       </a>
     </div>
+</container>
   </div>
-  </div>
-        </div>
-      </div>
+</div>
+</div>
+</div>
+</div>

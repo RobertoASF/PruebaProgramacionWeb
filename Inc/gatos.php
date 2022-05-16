@@ -1,26 +1,4 @@
-<script type="text/javascript">
-    $(document).ready(function() {
-      $('#div-btn5').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/aves.php');
-          return false;
-      });
-
-      $('#div-btn6').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/gatos.php');
-          return false;
-      });
-
-      $('#div-btn7').on('click', function() {
-          $('.navbar-nav li').removeClass('active');
-          $("#central").load('inc/perros.php');
-          return false;
-      });
-
-    });    
-  </script>
-
+<script src="JS/tienda.js"></script>
 <br>
     <br>
       <!--Sidebar menu-->
