@@ -1,131 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link  href="css/estilos.css" rel="stylesheet">
-        <title>Tienda</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <link href="css/estilos.css" rel="stylesheet">
+  <title>Tienda</title>
 </head>
+
 <body>
 
-    <!-- Navbar -->
-    <div class="container"></div>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #c8dfef;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html">
-            <img src="img/mascotas.logo.webp" alt="" width="40" height="34" class="d-inline-block align-text-top">DOGTOYS
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link "  href="Index.html">Inicio</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link active"  aria-current="page" href="tienda.html">tienda</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="donaciones.html">Donaciones</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
-            </li>
-          </ul>
-          <ul>
-            <div class="nav-item "  style="right: 100px;">
-              <a class="nav-link" href="carrito.html">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/mascotas.logo.webp" alt="" width="40" height="34" class="d-inline-block align-text-top">DOGTOYS
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="donaciones.html">Donaciones</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              tienda
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">caninos</a></li>
+              <li><a class="dropdown-item" href="#">gatunos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">solo por hoy</a>
+          </li>
+        </ul>
+        <ul>
+          <div class="nav-item " style="right: 100px;">
+            <a class="nav-link" href="carrito.html">
               <img src="img/carrito.compras.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
-              </a>
-            </div>
-          </ul>
-          
-        </div>
+            </a>
+          </div>
+        </ul>
       </div>
-    </nav>
     </div>
-    <!-- Fin Navbar -->
-    <!--salto de linea-->
-  <hr>
-  <hr>
-  <hr>
-      <!--Sidebar menu-->
-    <div class="container">
-      <div class="row"><div class="col-md-12"></div><br> </div>
-    <div class="row">
-        <div class="col-md-3">
-          <br />
-          <br />
-            <div class="list-group">
-           
-                <a href="accesoriosperro.html" class="list-group-item list-group-item-action action">Perritos 🐶 </a>
-                <a href="accesoriosgato.html" class="list-group-item list-group-item-action">Gatitos 🐱 </a>
-                <a href="accesoriosave.html" class="list-group-item list-group-item-action">Aves 🦜 </a>
+  </nav>
+  <!-- Fin Navbar -->
 
-            </div>
+  
+  <div class="list-group">
+
+    <a href="accesoriosperro.html" class="list-group-item list-group-item-action action">Perritos 🐶 </a>
+    <a href="accesoriosgato.html" class="list-group-item list-group-item-action">Gatitos 🐱 </a>
+    <a href="accesoriosave.html" class="list-group-item list-group-item-action">Aves 🦜 </a>
+
+  </div>
+
+
+  <div class="support-grid"></div>
+
+
+  <div class="band">
+    <div class="item-1">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-2">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-3">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-4">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-5">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-6">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+    <div class="item-7">
+      <a href="" class="card">
+        <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
+        <article>
+          <h1>banda de gato</h1>
+          <span>Mary Winkler</span>
+          <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+        </article>
+      </a>
+    </div>
+  </div>
+
+
+  <footer id="footer" class="bg-light text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase"> para obtener descuentos.. <a id="sus" href="">suscribete</a> </h5>
         </div>
-     
-        <!--Fin Sidebar menu-->
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
 
-        <!--Contenido-->
-        <div class="col-md-9">
-            <div class="card01">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4>Productos</h4>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img class="card-img-top" src="img/correa1.png" alt width="150" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Collar para Perro</h5>
-                                    <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
-                                    <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
-                                    <div class="d-grid gap-2">
-                                    <button class="btn btn-primary button">Añadir a carrito</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img class="card-img-top" src="img/gato1.png" alt width="150" height="150">
-                                <div class="card-body">
-                                    <h5 class="card-title">Repisa para Gato</h5>
-                                    <h6 class="text primary">Precio: <span class="precio">$ 19000</span></h6>
-                                    <p class="card-text">Repisa hecha para el descanso y relajo de tu gatito preferido</p>
-                                    <br>
-                                    <br>
-                                    <div class="d-grid gap-2">
-                                    <button class="btn btn-primary button ">Añadir a carrito</button>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <img class="card-img-top " src="img/pajaro1.jpg" alt width="150" height="150" >
-                                <div class="card-body">
-                                    <h5 class="card-title">jaula de ave azul</h5>
-                                    <h6 class="text primary">Precio: <span class="precio">$ 30000</span></h6>
-                                    <p class="card-text"> Jaula diseñada para mantener con un espacio conciderable a tu pajarito </p>
-                                    <br>
-                                    <div class="d-grid gap-2">
-                                      <button class="btn btn-primary button ">Añadir a carrito</button>
-                                    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="">Programacion web </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 
-        
-<script src="JS/Scripts.js"></script>  
+  <script src="JS/Scripts.js"></script>
 </body>
+
 </html>
