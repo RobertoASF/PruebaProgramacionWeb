@@ -41,7 +41,13 @@
           $("#central").load('inc/nosotros.php');
           return false;
       });
-      
+
+       $('#div-btn0').on('click', function() {
+          $('.navbar-nav li').removeClass('active');
+          $("#central").load('inc/carrito.php');
+          return false;
+      });
+
     });
  
   </script>
@@ -50,7 +56,7 @@
 </head>
 
 <body>
- 
+
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-light "  style="background-color: #ffffff;">
     <div class="container-fluid">
@@ -79,8 +85,8 @@
           </li>
         </ul>
         <ul>
-          <div class="nav-item "  style="right: 100px;">
-            <a class="nav-link" href="carrito.html">
+          <div class="nav-item " id="div-btn0" style="right: 100px;">
+            <a class="nav-link" href="#">
             <img src="img/carrito.compras.png" alt="" width="40" height="34" class="d-inline-block align-text-top">
             </a>
           </div>
@@ -89,6 +95,9 @@
     </div>
   </nav>
 
+
+
+  
   <div id="central">
     <div id="central-content">
         <div class="jumbotron">

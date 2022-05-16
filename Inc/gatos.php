@@ -20,6 +20,7 @@
 
     });    
   </script>
+
 <br>
     <br>
       <!--Sidebar menu-->
@@ -50,7 +51,7 @@
       </a>
     </div>
     <div class="item-2">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
         <article>
           <h1>banda de gato</h1>
@@ -61,7 +62,7 @@
       </a>
     </div>
     <div class="item-3">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
         <article>
           <h1>banda de gato</h1>
@@ -72,7 +73,7 @@
       </a>
     </div>
     <div class="item-4">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
         <article>
           <h1>banda de gato</h1>
@@ -83,8 +84,6 @@
       </a>
     </div>
     
-    </div>
-  </div>
-  </div>
-        </div>
-      </div>
+ 
+
+     

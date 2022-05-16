@@ -1,4 +1,6 @@
 
+<br>
+    <br>
   <!-- tarjetas de integrantes-->
   <div class="flexbox" style="border:hidden" id="card01">
     <div class="row" style="height:35rem" style="height: 570px;">
