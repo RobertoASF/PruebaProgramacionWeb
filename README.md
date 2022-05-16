@@ -1,12 +1,15 @@
 # PruebaProgramacionWeb
-primera prueba del curso de Programacion Web
+Prueba del curso de Programacion Web
 
+## Importante
+
+ Para utilizar todas las características de la página ejecutar con live-server. 
 
 ## Integrantes:
 
 + Roberto Sánchez
 + Edgardo Soto
-+ Kevin Oyarzún
++ Alonso Vásquez
 
 
 ## Mockups de la Página
