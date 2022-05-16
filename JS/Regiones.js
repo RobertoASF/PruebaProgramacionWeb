@@ -4,20 +4,20 @@ const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
 
   const myObj = JSON.parse(this.responseText);
-  let text = "<select class='form-control' id='ddlRegion' onchange='CargarProvincia()'>"
+  let text = "<select class='form-control' id='ddlRegion' onchange='CargarComuna()'>"
   for (let x in myObj) {
-      text += "<option value='"+ myObj[x].id + "'>"+ myObj[x].region +"</option>"
+      text += "<option value='"+ myObj[x].codigo + "'>"+ myObj[x].nombre +"</option>"
   }
   text += "</select>"    
   document.getElementById("region").innerHTML = text;
   
 }
 
-xmlhttp.open("GET", "http://apiedgard-001-site1.mysitepanel.net/api/Regiones/",true);
+xmlhttp.open("GET", "https://apis.digital.gob.cl/dpa/regiones/",true);
 xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xmlhttp.send();
 
-    function CargarProvincia()
+    function CargarComuna()
 {
 var seleccion=document.getElementById('ddlRegion');
 
@@ -25,38 +25,17 @@ var seleccion=document.getElementById('ddlRegion');
 const xmlhttp = new XMLHttpRequest();
 xmlhttp.onload = function() {
   const myObj = JSON.parse(this.responseText);
-  let text = "<select class='form-control' id='ddlProvincia' onchange='CargarComuna()'>"
+  let text = "<select class='form-control' id='ddlComuna' onchange='CargarCouma()' >"
   for (let x in myObj) {
-      text += "<option value='"+ myObj[x].id + "'>"+ myObj[x].provincia +"</option>"
+      text += "<option value='"+ myObj[x].codigo_padre + "'>"+ myObj[x].nombre +"</option>"
   }
   text += "</select>"    
-  document.getElementById("provincia").innerHTML = text;
+  document.getElementById("comuna").innerHTML = text;
 }
-xmlhttp.open("GET", "http://apiedgard-001-site1.mysitepanel.net/api/Provincias/"+ seleccion.options[seleccion.selectedIndex].value )
+xmlhttp.open("GET", "https://apis.digital.gob.cl/dpa/regiones/"+seleccion.options[seleccion.selectedIndex].value+"/comunas" )
 xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 xmlhttp.send();
 
 }
 
-  function CargarComuna()
-{
-var seleccionP=document.getElementById('ddlProvincia');
-
-
-const xmlhttp = new XMLHttpRequest();
-xmlhttp.onload = function() {
-const myObj = JSON.parse(this.responseText);
-
-
-let text = "<select class='form-control' id='ddlComuna'>"
-for (let x in myObj) {
-    text += "<option value='"+ myObj[x].id + "'>"+ myObj[x].comuna +"</option>"
-}
-text += "</select>"    
-document.getElementById("comuna").innerHTML = text;
-}
-xmlhttp.open("GET", "http://apiedgard-001-site1.mysitepanel.net/api/Comunas/"+ seleccionP.options[seleccionP.selectedIndex].value  )
-xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-xmlhttp.send();
-
-}
+  

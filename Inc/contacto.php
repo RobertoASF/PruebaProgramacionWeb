@@ -35,17 +35,13 @@
             <p id="region"></p>
         </div>
         <div class="form-group col-md-3">
-        <label for="ddlProvincia">Provincia:</label>
-            <p id="provincia"></p>
-        </div>
-        <div class="form-group col-md-3">
             <label for="ddlComuna">Comuna:</label>
             <p id="comuna"></p>
         </div>
     </div>
     <div class="col-md-6">
-      <label for="validationCustom03" class="form-label">Ciudad</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="Ciudad" required>
+      <label for="validationCustom03" class="form-label">Calle y número</label>
+      <input type="text" class="form-control" id="validationCustom03" placeholder="calle y número" required>
     </div>
     
     <div class="col-md-3">
