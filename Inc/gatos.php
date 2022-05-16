@@ -22,9 +22,9 @@
         <div class="thumb" style="background-image: url(img/bandana.gato.jpg);"></div>
         <article>
           <h1>banda de gato</h1>
-          <span>Mary Winkler</span>
+          <span>Marca Mypets</span>
           <h6 class="text primary">Precio: <span class="precio">$ 10000</span></h6>
-          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de perros</p>
+          <p class="card-text">Lindos y llamativos collares para mascotas que calcen con diferentes clases de gatos</p>
         </article>
       </a>
     </div>
@@ -61,7 +61,12 @@
         </article>
       </a>
     </div>
-    
+    <br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br> <br>
+    <br><br><br><br> 
  
 
      

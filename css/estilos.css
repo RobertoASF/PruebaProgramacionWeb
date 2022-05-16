@@ -137,6 +137,7 @@ body{
   background: #ffff;
   overflow-x: hidden;
   padding: 8px;
+  flex-wrap: wrap;
 }
 
 .sidenav a {
