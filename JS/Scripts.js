@@ -67,52 +67,36 @@ $(document).ready(function() {
       return false;
   });
 
-  $('#div-btn2').on('click', function() {
-      $('.navbar-nav li').removeClass('active');
-      $("#central").load('inc/products.php');
-      return false;
-  });
-
-  $('#div-btn3').on('click', function() {
-      $('.navbar-nav li').removeClass('active');
-      $("#central").load('inc/news.php');
-      return false;
-  });
-
-  $('#div-btn4').on('click', function() {
-      $('.navbar-nav li').removeClass('active');
-      $("#central").load('inc/contact.php');
-      return false;
-  });
+ 
 });
 
 /*Enlaces a documentos php*/
 $(document).ready(function() {
-  $('#div-btn1').on('click', function() {
+  $('#div-btnh01').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('inc/donaciones.php');
       return false;
   });
 
-  $('#div-btn2').on('click', function() {
+  $('#div-btnh02').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('inc/tienda.php');
       return false;
   });
 
-  $('#div-btn3').on('click', function() {
+  $('#div-btnh03').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('inc/contacto.php');
       return false;
   });
 
-  $('#div-btn4').on('click', function() {
+  $('#div-btnh04').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('inc/nosotros.php');
       return false;
   });
 
-  $('#div-btn0').on('click', function() {
+  $('#div-btnh00').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('inc/carrito.php');
       return false;
