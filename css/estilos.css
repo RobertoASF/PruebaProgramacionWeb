@@ -22,7 +22,7 @@
     background-color: #fdcfcf;
   }
 body{
-  background: linear-gradient(to bottom, rgb(172, 255, 255), white) fixed;
+  background: linear-gradient(to bottom, rgb(254, 247, 203), white);
 }
 
 .navbar{
@@ -149,6 +149,7 @@ body{
 
 .sidenav a:hover {
   color: #257906;
+  background: #f1f1f1; ;
 }
 
 
@@ -250,6 +251,7 @@ html {
 footer {
   height: 70px;
   margin-top: 60px;
+  background: linear-gradient(to bottom, rgb(254, 247, 203), white);
 
 }
 
