@@ -1,4 +1,4 @@
-
+<script src="JS/Regiones.js"></script>
 <br><br><br><br>
 <div id="contacto" class="seccion">
 
@@ -28,41 +28,26 @@
         <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
       </div>
     </div>
+    <div>
+        <div class="form-group col-md-3" >
+      
+            <label for="ddlRegion">Region:</label>
+            <p id="region"></p>
+        </div>
+        <div class="form-group col-md-3">
+        <label for="ddlProvincia">Provincia:</label>
+            <p id="provincia"></p>
+        </div>
+        <div class="form-group col-md-3">
+            <label for="ddlComuna">Comuna:</label>
+            <p id="comuna"></p>
+        </div>
+    </div>
     <div class="col-md-6">
       <label for="validationCustom03" class="form-label">Ciudad</label>
       <input type="text" class="form-control" id="validationCustom03" placeholder="Ciudad" required>
-      <div class="invalid-feedback">
-        ❌ Por favor ingrese su ciudad.
-     
-      </div>
     </div>
-    <div class="col-md-3">
-      <label for="validationCustom04" class="form-label">Region</label>
-      
-      <select class="form-select" id="validationCustom04" required>
-        <option selected disabled value="">selecciona Region...</option>
-        <option>I Región de Tarapacá</option>
-        <option>II Región de Antofagasta</option>
-        <option>III Región de Atacama</option>
-        <option>IV Región de Coquimbo</option>
-        <option>V Región de Valparaíso</option>
-        <option>VI Región del Libertador General Bernardo O’Higgins</option>
-        <option>VII Región del Maule</option>
-        <option>VIII Región del Biobío</option>
-        <option>IX Región de La Araucanía</option>
-        <option>X Región de Los Lagos</option>
-        <option>XI Región Aysén del General Carlos Ibáñez del Campo</option>
-        <option>XII Región de Magallanes y Antártica Chilena</option>
-        <option>Región Metropolitana de Santiago</option>
-        <option>XIV Región de Los Ríos</option>
-        <option>XV Región de Arica y Parinacota</option>
-        <option>XVI Región de Ñuble</option>
-       
-      </select>
-      <div class="invalid-feedback">
-      ❌ Por favor seleccione su region.
-      </div>
-    </div>
+    
     <div class="col-md-3">
       <label for="validationCustom05" class="form-label">Telefono movil</label>
       <div class="input-group has-validation">
