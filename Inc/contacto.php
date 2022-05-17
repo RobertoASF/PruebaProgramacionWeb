@@ -59,14 +59,14 @@
 			<!-- Grupo: Region -->
 			<div  class="formulario__grupo">
 			
-					<label for="ddlRegion" class="formulario__label">Region</label>
+					<label for="ddlRegion identificacion" class="formulario__label">Selecciona Region</label>
 						<div class="formulario__grupo-input">
 							<p id="region"></p>
 						</div>
 			</div>
 			<!-- Grupo: Comuna -->
 			<div class="formulario__grupo">
-					<label for="ddlRegion" class="formulario__label">Comuna</label>
+					<label for="ddlRegion " class="formulario__label">Selecciona Comuna</label>
 						<div class="formulario__grupo-input">
 							<p id="comuna"></p>
 						</div>
