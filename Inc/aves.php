@@ -4,9 +4,9 @@
 
 <container>
 <div class="sidenav">
-  <a class="nav-link" id="div-btn7" href="#">Perritos 🐶</a>
-  <a class="nav-link" id="div-btn6" href="#">Gatitos 🐱</a>
-  <a class="nav-link" id="div-btn5" href="#">Aves 🦜</a>
+  <a class="nav-link" id="div-btnt01" href="#">Perritos 🐶</a>
+  <a class="nav-link" id="div-btnt02" href="#">Gatitos 🐱</a>
+  <a class="nav-link" id="div-btnt03" href="#">Aves 🦜</a>
 
 </div>
   </container>
