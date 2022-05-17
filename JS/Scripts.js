@@ -102,4 +102,31 @@ $(document).ready(function() {
       return false;
   });
 
+  //funciones de los links delc arrusel
+
+  $('#div-btnc01').on('click', function() {
+    $('.carr').removeClass('active');
+    $("#central").load('inc/tienda.php');
+    return false;
+  });
+
+  $('#div-btnc02').on('click', function() {
+    $('.carr').removeClass('active');
+    $("#central").load('inc/contacto.php');
+    return false;
+  });
+
+  $('#div-btnc03').on('click', function() {
+    $('.carr').removeClass('active');
+    $("#central").load('inc/donaciones.php');
+    return false;
+  });
+
+  $('#div-btnc04').on('click', function() {
+    $('.carr').removeClass('active');
+    $("#central").load('inc/nosotros.php');
+    return false;
+  });
+
+
   });
