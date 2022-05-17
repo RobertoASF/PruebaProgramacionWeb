@@ -1,126 +1,110 @@
-<script src="JS/Regiones.js"></script>
-<br><br><br><br>
-<div id="contacto" class="seccion">
 
-<!--formualrio de contacto-->
-<div class="container">
-  <form class="row g-3 needs-validation" novalidate>
-    <div class="col-md-4">
-      <label for="validationCustom01" class="form-label">Primer Nombre</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
-      <div class="invalid-feedback">
-      ❌ debes ingresar tu nombre
-     
-      </div>
-    </div>
-    <div class="col-md-4">
-      <label for="validationCustom02" class="form-label">Apellidos</label>
-      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
-      <div class="invalid-feedback">
-       ❌  Por favor ingrese su Apellido.
-      
-      </div>
-    </div>
-    <div class="col-md-4">
-      <label for="validationCustomUsername" class="form-label">Instagram o Twitter (opcional)</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend">@</span>
-        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
-      </div>
-    </div>
-    <div>
-        <div class="form-group col-md-3" >
-      
-            <label for="ddlRegion">Region:</label>
-            <p id="region"></p>
-        </div>
-        <div class="form-group col-md-3">
-            <label for="ddlComuna">Comuna:</label>
-            <p id="comuna"></p>
-        </div>
-    </div>
-    <div class="col-md-6">
-      <label for="validationCustom03" class="form-label">Calle y número</label>
-      <input type="text" class="form-control" id="validationCustom03" placeholder="calle y número" required>
-    </div>
+<br><br>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/Validacion.css">
+
+	<main>
+		<form action="" class="formulario" id="formulario">
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Pablito">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El nombre tiene que ser de 1 a 40 dígitos y solo puede contener letras.</p>
+			</div>
+			<!-- Grupo: Apellido -->
+			<div class="formulario__grupo" id="grupo__apellido">
+				<label for="apellido" class="formulario__label">Apellido</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Vera Campos">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El apellido tiene que ser de 1 a 40 dígitos y solo puede contener letras.</p>
+			</div>	
+
+			<!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo Electrónico</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+			<!-- Grupo: Repetir Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo2">
+				<label for="correo2" class="formulario__label">Repetir Correo</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo2" id="correo2">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Ambos correos deben ser iguales.</p>
+			</div>
+
+			<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Teléfono</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+			</div>
+
+			<!-- Grupo: Region -->
+			<div  class="formulario__grupo">
+			
+					<label for="ddlRegion" class="formulario__label">Region</label>
+						<div class="formulario__grupo-input">
+							<p id="region"></p>
+						</div>
+			</div>
+			<!-- Grupo: Comuna -->
+			<div class="formulario__grupo">
+					<label for="ddlRegion" class="formulario__label">Comuna</label>
+						<div class="formulario__grupo-input">
+							<p id="comuna"></p>
+						</div>
+			</div>
+
+			<!-- Grupo: Direccion -->
+			<div class="formulario__grupo" id="grupo__direccion">
+				<label for="direccion" class="formulario__label">Direccion</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="direccion" id="direccion" placeholder="Pasaje los puente 10630">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Terminos y Condiciones -->
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+			</div>
+		</form>
+	</main>
+
+	<script src="js/ValidacionF.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/Regiones.js"></script>
+
+
     
-    <div class="col-md-3">
-      <label for="validationCustom05" class="form-label">Telefono movil</label>
-      <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend" aria-describedby="inputGroupPrepend">+56 9</span>
-      <input type="text" class="form-control" id="validationCustom05" placeholder="999999999" required>
-      <div class="invalid-feedback">
-       ❌ Por favor ingresa un telefomo valido.
-      </div>
-      </div>
-    </div>
-       <label for="subject">Comentario</label>
-       <div class="row">
-       <div class="col-md-12">
-        <textarea id="subject" name="subject" placeholder="Escribenos tu comentario..." style="width:100%; height:200px;" required ></textarea>
-        <div class="invalid-feedback">
-          ❌ Por favor ingresa un telefomo valido.
-         </div>
-      </div>
-    </div>
-  
-
-
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-        <label class="form-check-label" for="invalidCheck">
-          Acepto los terminos y condiciones
-        </label>
-        <div class="invalid-feedback">
-          ❌ Debes aceptar los terminos y condiciones
-        </div>
-      </div>
-    </div>
     
-    <div class="col-12">
-      <button class="btn btn-primary" type="submit">Enviar 🐾 </button>
-    </div>
-  </form>
-
-  
-  </div>
-</div>
-<!--script validacion de formulario-->
-<script>
-// Ejemplo sacado de internet
-(function() {
-  'use strict';
-  window.addEventListener('load', function() {
-   var forms = document.getElementsByClassName('needs-validation');
-   var validation = Array.prototype.filter.call(forms, function(form) {
-      form.addEventListener('submit', function(event) {
-        if (form.checkValidity() === false) {
-          event.preventDefault();
-          event.stopPropagation();
-        }
-        form.classList.add('was-validated');
-      }, false);
-    });
-  }, false);
-})();
-
-</script>
-
-<script>
-  function openSeccion(seccionName) {
-  var i;
-  var x = document.getElementsByClassName("seccion");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(seccionName).style.display = "block";
-}
-</script>
-
-<script src="js/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  
