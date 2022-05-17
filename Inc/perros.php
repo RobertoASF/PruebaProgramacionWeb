@@ -14,7 +14,7 @@
 
   <div class="band">
     <div class="item-1">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/hueso_perro.png);"></div>
         <article>
           <h1>DENTAL MANZANA LARGE</h1>
@@ -25,7 +25,7 @@
       </a>
     </div>
     <div class="item-2">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/correa_perro.png);"></div>
         <article>
           <h1>CORREA DE ENTRENAMIENTO ROJA</h1>
@@ -36,7 +36,7 @@
       </a>
     </div>
     <div class="item-3">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/mochila_perro.png);"></div>
         <article>
           <h1>MALETA Y MOCHILA CON RUEDAS – ROJA</h1>
@@ -47,7 +47,7 @@
       </a>
     </div>
     <div class="item-4">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/arnes_perro.png);"></div>
         <article>
           <h1>ARNES DE PERRO COLORES</h1>

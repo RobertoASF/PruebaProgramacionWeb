@@ -18,7 +18,7 @@
 
   <div class="band">
     <div class="item-1">
-      <a href="" class="card">
+      <a href="#" class="card">
         <div class="thumb" style="background-image: url(img/rascador_gato.png);"></div>
         <article>
           <h1>RASCADOR</h1>
