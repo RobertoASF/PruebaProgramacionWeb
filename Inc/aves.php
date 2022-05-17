@@ -65,9 +65,12 @@
     </a>
   </div>
 
-
   
-    <!-- Modal section-->
+    <!-- Modal --------------------------------------------------------------------------------- section-->
+    
+    <!-- Modal --------------------------------------------------------------------------------- section-->
+    
+    <!-- Modal --------------------------------------------------------------------------------- section-->
 
     <div class="modal fade" id="exampleModal111">
       <div class="modal-dialog modal-lg">
@@ -75,24 +78,17 @@
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">Fundacion huella animal</h4>
+            <h4 class="modal-title">JUGETE PRA AVE CON TROZOS</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
 
           <!-- Modal body -->
           <div class="modal-body">
             <center>
-              <img src="img/Fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
+              <img src="img/juguete01_ave.jpg" alt="Fundacion huella animal" class="w-75">
             </center>
-            <p>Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de
-              dar solución a la problemática de Bienestar Animal y
-              Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Contamos con un equipo de voluntarios
-              profesional y multidisciplinario, comprometido con el logro de nuestra misión.
-              Uno de nuestros sellos principales como organización consiste en el trabajo colaborativo que llevamos
-              junto con actores del entorno, vecinos y vecinas del sector, municipalidades,
-              establecimientos educacionales y organizaciones sociales.</p>
-            <a href="https://fundacionhuellaanimal.cl/" target="_blank" rel="noopener noreferrer"
-              class="btn btn-primary">Visitar</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, vitae pariatur sit iusto incidunt delectus voluptatibus dignissimos, sapiente quo sed omnis. Dolorum delectus modi blanditiis minima voluptates maiores eius ea.</p>
+            
           </div>
         </div>
       </div>
@@ -105,24 +101,17 @@
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">modal 2</h4>
+            <h4 class="modal-title">COLUMPIO PARA AVE</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
 
           <!-- Modal body -->
           <div class="modal-body">
             <center>
-              <img src="img/Fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
+              <img src="img/columpio_ave.jpg" alt="Fundacion huella animal" class="w-75">
             </center>
-            <p>Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de
-              dar solución a la problemática de Bienestar Animal y
-              Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Contamos con un equipo de voluntarios
-              profesional y multidisciplinario, comprometido con el logro de nuestra misión.
-              Uno de nuestros sellos principales como organización consiste en el trabajo colaborativo que llevamos
-              junto con actores del entorno, vecinos y vecinas del sector, municipalidades,
-              establecimientos educacionales y organizaciones sociales.</p>
-            <a href="https://fundacionhuellaanimal.cl/" target="_blank" rel="noopener noreferrer"
-              class="btn btn-primary">Visitar</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis error, asperiores placeat similique voluptatem recusandae voluptate dolor consequuntur quo amet ut mollitia soluta veritatis cum facilis quas iste non eum?.</p>
+            
           </div>
         </div>
       </div>
@@ -135,24 +124,17 @@
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">modal 3</h4>
+            <h4 class="modal-title">TAZON INOX</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
 
           <!-- Modal body -->
           <div class="modal-body">
             <center>
-              <img src="img/Fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
+              <img src="img/tazon_ave.png" alt="Fundacion huella animal" class="w-75">
             </center>
-            <p>Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de
-              dar solución a la problemática de Bienestar Animal y
-              Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Contamos con un equipo de voluntarios
-              profesional y multidisciplinario, comprometido con el logro de nuestra misión.
-              Uno de nuestros sellos principales como organización consiste en el trabajo colaborativo que llevamos
-              junto con actores del entorno, vecinos y vecinas del sector, municipalidades,
-              establecimientos educacionales y organizaciones sociales.</p>
-            <a href="https://fundacionhuellaanimal.cl/" target="_blank" rel="noopener noreferrer"
-              class="btn btn-primary">Visitar</a>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit blanditiis ab, dolores tenetur sint neque provident asperiores fugiat, quia natus esse eveniet corrupti minima labore tempora ad laborum necessitatibus illo!</p>
+           
           </div>
         </div>
       </div>
@@ -166,24 +148,17 @@
 
           <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">modal 3</h4>
+            <h4 class="modal-title">JUGUETE DE LORO</h4>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
 
           <!-- Modal body -->
           <div class="modal-body">
             <center>
-              <img src="img/Fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
+              <img src="img/juguete_ave.png" alt="Fundacion huella animal" class="w-75">
             </center>
-            <p>Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de
-              dar solución a la problemática de Bienestar Animal y
-              Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Contamos con un equipo de voluntarios
-              profesional y multidisciplinario, comprometido con el logro de nuestra misión.
-              Uno de nuestros sellos principales como organización consiste en el trabajo colaborativo que llevamos
-              junto con actores del entorno, vecinos y vecinas del sector, municipalidades,
-              establecimientos educacionales y organizaciones sociales.</p>
-            <a href="https://fundacionhuellaanimal.cl/" target="_blank" rel="noopener noreferrer"
-              class="btn btn-primary">Visitar</a>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, nesciunt earum doloremque similique nisi, alias corrupti quisquam eos atque et fugiat impedit voluptate? Debitis reiciendis temporibus hic, velit beatae ipsa?</p>
+           
           </div>
         </div>
       </div>
