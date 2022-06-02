@@ -1,36 +1,23 @@
-# PruebaProgramacionWeb
-Prueba del curso de Programacion Web
+## Django Password tienda
 
-## Importante
+generate random strings with Django, Python and Boostrap
 
- Para utilizar todas las características de la página ejecutar con live-server. 
+### Run with Docker (Recommended)
 
-## Integrantes:
+execute these commands to run with docker on any platform:
 
-+ Roberto Sánchez
-+ Edgardo Soto
-+ Alonso Vásquez
+```bash
+docker build --tag python-django .
+docker run --publish 8000:8000 --name python-django python-django
+```
 
+### Installation
 
-## Mockups de la Página
+```
+git clone https://github.com/FaztWeb/django-password-tienda
+cd django-password-tienda
+pip install -r requeriments.txt
+python manage.py runserver
+```
 
-INDEX
-![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_index.jpeg)
-
-
-TIENDA
-![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_tienda.jpeg)
-
-NOSOTROS
-![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_nosotros.jpeg)
-
-CARRO
-![Img_text](https://github.com/RobertoASF/PruebaProgramacionWeb/blob/main/img/mock_carro.jpeg)
-
-// Mensaje profesor
-Puntaje Obtenido: 44,4
-Nota: 6,9
-
-¡Muy bien logrado!
-Utilizaron muy bien las herramientas disponibles y lo aprendido en clases. Asimismo, el diseño del mockup es concordante con lo finalmente desarrollado. Sin embargo, es posible mejorar el diseño de la galería de imágenes de la sección Donaciones, la cual no cumple con lo solicitado (no muestra la imagen ampliada) y pero puede ser mejorable. 
-¡Felicitaciones!
+now you can visit <a href="http://localhost:8000" target="_blank" rel="noreferrer">http://localhost:8000</a>
