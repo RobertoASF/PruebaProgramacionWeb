@@ -7,7 +7,7 @@ import random
 
 
 def home(request):
-    return render(request, 'home.html', {'name': 'Fazt'})
+    return render(request, 'home.html', {'name': 'gvrrido'})
 
 
 def about(request):

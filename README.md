@@ -14,7 +14,7 @@ docker run --publish 8000:8000 --name python-django python-django
 ### Installation
 
 ```
-git clone https://github.com/FaztWeb/django-password-tienda
+
 cd django-password-tienda
 pip install -r requeriments.txt
 python manage.py runserver

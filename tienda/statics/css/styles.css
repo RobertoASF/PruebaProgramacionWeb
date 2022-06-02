@@ -73,6 +73,7 @@
 .container-tarjetas .card img{
     width: 330px;
     height: 220px;
+    cursor: pointer;
 }
 
 
