@@ -18,6 +18,11 @@ from tienda import views
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('about', views.about, name='about'),
+    path('tienda', views.tienda, name='tienda'),
     path('contacto', views.contacto, name='contacto'),
+    path('donaciones', views.donaciones, name='donaciones'),
+    path('nosotros', views.nosotros, name='nosotros'),
+    path('perros', views.perros, name='perros'),
+    path('gatos', views.gatos, name='gatos'),
+    
 ]
