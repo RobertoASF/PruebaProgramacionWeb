@@ -1,15 +1,5 @@
 ## Django Password tienda
 
-generate random strings with Django, Python and Boostrap
-
-### Run with Docker (Recommended)
-
-execute these commands to run with docker on any platform:
-
-```bash
-docker build --tag python-django .
-docker run --publish 8000:8000 --name python-django python-django
-```
 
 ### Installation
 

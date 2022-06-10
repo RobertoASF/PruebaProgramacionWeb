@@ -63,7 +63,7 @@ function addItemCarrito(newItem){
 $(document).ready(function() {
   $('#div-btn1').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('Formulario');
+      $("#central").load('Inc/Formulario.php');
       return false;
   });
 
@@ -74,31 +74,31 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('#div-btnh01').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('donaciones');
+      $("#central").load('inc/donaciones.php');
       return false;
   });
 
   $('#div-btnh02').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('tienda');
+      $("#central").load('inc/tienda.php');
       return false;
   });
 
   $('#div-btnh03').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('contacto');
+      $("#central").load('inc/contacto.php');
       return false;
   });
 
   $('#div-btnh04').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('nosotros');
+      $("#central").load('inc/nosotros.php');
       return false;
   });
 
   $('#div-btnh00').on('click', function() {
       $('.navbar-nav li').removeClass('active');
-      $("#central").load('carrito');
+      $("#central").load('inc/carrito.php');
       return false;
   });
 
@@ -106,25 +106,25 @@ $(document).ready(function() {
 
   $('#div-btnc01').on('click', function() {
     $('.carr').removeClass('active');
-    $("#central").load('tienda');
+    $("#central").load('inc/tienda.php');
     return false;
   });
 
   $('#div-btnc02').on('click', function() {
     $('.carr').removeClass('active');
-    $("#central").load('contacto');
+    $("#central").load('inc/contacto.php');
     return false;
   });
 
   $('#div-btnc03').on('click', function() {
     $('.carr').removeClass('active');
-    $("#central").load('donaciones');
+    $("#central").load('inc/donaciones.php');
     return false;
   });
 
   $('#div-btnc04').on('click', function() {
     $('.carr').removeClass('active');
-    $("#central").load('nosotros');
+    $("#central").load('inc/nosotros.php');
     return false;
   });
 

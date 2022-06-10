@@ -2,35 +2,98 @@
 {% load static %}
 {% block content %}
 
-<body>
-    <script src="{% static 'JS/tienda.js' %}"></script>
-<br><br>
 
-<div id="central">
-  <container>
-    <div class="sidenav">
-      <a class="nav-link" id="div-btnt01" href="#">Perritos 🐶</a>
-      <a class="nav-link" id="div-btnt02" href="#">Gatitos 🐱</a>
-      <a class="nav-link" id="div-btnt03" href="#">Aves 🦜</a>
-    </div>
-  </container>
+ <!-- cambiar formato de aves peros y gatos para ocupar esta plantilla, responsiv -->
 
 
-  <container>
-    <div id="central">
-      <div id="central-content">
-        <div class="jumbotron">
-          <img class="img-fondo" src="{% static 'images/fondo.jpg' %}" alt="">
+<body class="body-Tienda">
+
+    <div class="container">
+        <h1 class="tienda-titulo">Tienda</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aliquam quod sit hic ducimus at laboriosam
+        ex. Corporis cupiditate iusto nulla dignissimos fugiat. Voluptatum dicta accusamus labore ut asperiores
+        doloribus nostrum dignissimos temporibus, ullam doloremque iusto illo natus facere porro soluta possimus. Nulla
+        mollitia, tenetur deleniti eius vel impedit sequi sint explicabo veniam ipsa cum quos inventore, at quis harum.
+    </p>
+
+
+    <div class="container-tarjetas">
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
         </div>
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/img1.jpg' %}" alt="imagen-producto">
+            <div class="info ">
+                <h1>nombre</h1>
+                <span>
+                    <h2>marca</h2>
+                </span>
+                <h6 class="text primary">Precio: <span class="precio">$</span></h6>
+
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+    </div>
 
 
-
-
-  </container>
-</div>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    
 </body>
 {% endblock %}
