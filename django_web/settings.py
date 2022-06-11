@@ -121,9 +121,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
+]
+
 # enlazar css
 
-STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'tienda/statics'),)
+STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'tienda/static'),)
+
 
 
 

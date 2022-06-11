@@ -17,7 +17,13 @@ from django.urls import path
 from tienda import views
 
 urlpatterns = [
-    path('', views.home, name='home'),
-    path('about', views.about, name='about'),
+    path('', views.index, name='index'),
+    path('tienda', views.tienda, name='tienda'),
     path('contacto', views.contacto, name='contacto'),
+    path('donaciones', views.donaciones, name='donaciones'),
+    path('nosotros', views.nosotros, name='nosotros'),
+    path('perros', views.perros, name='perros'),
+    path('gatos', views.gatos, name='gatos'),
+    path('aves', views.aves, name='aves'),
+    path('carrito', views.carrito, name='carrito'),
 ]

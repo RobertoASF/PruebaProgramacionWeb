@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+
+<body>
+
+    <script src="{% static 'JS/tienda.js' %}"></script>
+    <br><br>
+
+    <div id="central">
+        <container>
+            <div class="sidenav">
+                <a class="nav-link"  href="{% url 'perros' %}">Perritos 🐶</a>
+                <a class="nav-link"  href="{% url 'gatos' %}">Gatitos 🐱</a>
+                <a class="nav-link"  href="{% url 'aves' %}">Aves 🦜</a>
+            </div>
+        </container>
+
+
+        <container>
+            <div id="central">
+                <div id="central-content">
+                    <div class="jumbotron">
+                        <img class="img-fondo" src="{% static 'img/fondo.jpg' %}" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+        </container>
+    </div>
+
+</body>
+{% endblock %}
