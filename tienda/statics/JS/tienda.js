@@ -2,19 +2,19 @@
 $(document).ready(function() {
     $('#div-btnt03').on('click', function() {
         $('.navbar-nav li').removeClass('active');
-        $("#central").load('aves');
+        $("#central").load('inc/aves.html');
         return false;
     });
 
     $('#div-btnt02').on('click', function() {
         $('.navbar-nav li').removeClass('active');
-        $("#central").load('gatos');
+        $("#central").load('inc/gatos.php');
         return false;
     });
 
     $('#div-btnt01').on('click', function() {
         $('.navbar-nav li').removeClass('active');
-        $("#central").load('perros');
+        $("#central").load('inc/perros.php');
         return false;
     });
 

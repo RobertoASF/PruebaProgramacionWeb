@@ -1,14 +1,22 @@
 {% extends 'layout.html' %}
-{% block content %}
 {% load static %}
+{% block content %}
 
+<<<<<<< HEAD
 <body>
 
   <!-- Carrusel -->
+=======
+
+<body class="body-home ">
+  <br>
+  <br>
+>>>>>>> 6df66a2c48b50d8f813695775ba8a5569e2e5603
   <div id="central">
     <div id="central-content">
       <div class="jumbotron">
         <div class="container">
+<<<<<<< HEAD
           <div class="container-fluid">
             <div class="row">
               <div class="col-2"></div>
@@ -126,4 +134,134 @@
 
 
 
+=======
+
+          <!-- Carrusel -->
+
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <div id="demo" class="carousel slide " data-bs-ride="carousel">
+
+                  <!-- Indicadores/puntos -->
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                  </div>
+
+                  <!-- presentación de diapositivas/carrusel -->
+                  <div id="carr" class="carousel-inner">
+                    <div class="carousel-item active" id="div-btnc01">
+                      <a href="#">
+                        <img src="{% static 'images/img1.jpg' %}" alt="accesorios para mascotas"
+                          class="d-block w-100 rounded-circle img-fluid">
+                        <div class="carousel-caption">
+                          <h3>Tienda</h3>
+                          <p>Nada mejor que tener a tu mascota con todos sus implementos</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item" id="div-btnc02">
+                      <a href="#">
+                        <img src="{% static 'images/img1.jpg' %}" alt="Contacto"
+                          class="d-block w-100 rounded-circle img-fluid">
+                        <div class="carousel-caption">
+                          <h3>Contacto</h3>
+                          <p>Comunicate con nosotros en cualquier momento</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="div-btnc03">
+                      <a href="#">
+                        <img src="https://www.myhappypet.es/sites/spmhp/files/perros_y_gatos.jpg"
+                          class="d-block w-100 rounded-circle img-fluid">
+                        <div class="carousel-caption">
+                          <h3>Donaciones</h3>
+                          <p>Apoya a las distintas organizaciones</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="carousel-item" id="div-btnc04">
+                      <a href="#">
+                        <img src="{% static 'images/img1.jpg' %}" alt="Nosotros"
+                          class="d-block w-100 rounded-circle img-fluid">
+                        <div class="carousel-caption">
+                          <h3>Nosotros</h3>
+                          <p>Convicción, Confianza, Compromiso, Profesionalismo, Amor por los animales y Empatía</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Controles/iconos izquierdo y derecho -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="container marketing">
+
+                  <!-- Tres columnas de texto debajo del carrusel -->
+                  <div class="marketing">
+                    <div class="row">
+                      <div class="marketing card col-lg-4">
+
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlaIvMUDGGMorXyILvoiva2mzLuzCUlkUOCQ&usqp=CAU"
+                          placeholder="Ayuda" width="140" height="140" class="bd-placeholder-img rounded-circle"
+                          alt=" Ayuda">
+                        <h2>Se voluntario</h2>
+                        <p>Puedes visitar a nuestros pequeños, ayudarnos a trasladarlos y ser parte de la comunidad
+                          Ayuda
+                          callejeros.
+                        </p>
+                        <div class="thumbnail">
+                          <!--<p><a  class="btn btn-secondary" href="#"  target="_blank" disabled="disabled">Inscripción &raquo; </a></p>-->
+                          <button type="submit" class="btn btn-secondary" disabled="disabled">
+                            Inscripción desactivo</button>
+                        </div>
+                      </div><!-- /.col-lg-4 -->
+
+                      <div class="marketing card col-lg-4">
+                        <img src="https://images.emojiterra.com/google/android-11/512px/1f43e.png" placeholder="Ayuda"
+                          width="140" height="140" class="bd-placeholder-img rounded" alt=" Adopta">
+                        <h2>Adopta</h2>
+                        <p>Adopta es un acto de amor, entrega y compasión. Puedes darles la oportunidad de cambiar.
+                        </p>
+                        <div class="thumbnail">
+                          <!-- <p><a class="btn btn-secondary" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1" target="_blank">>Formulario &raquo;</a></p>-->
+                          <button type="submit" class="btn btn-secondary" disabled="disabled">
+                            Formulario desactivo</button>
+                        </div>
+                      </div><!-- /.col-lg-4 -->
+                      <div  class="marketing card col-lg-4">
+                        <img src="https://i.pinimg.com/originals/cf/2f/4d/cf2f4d0087efdaf4514ca7b90d9d69b3.jpg"
+                          placeholder="Ayuda" width="140" height="140" class="bd-placeholder-img rounded-circle"
+                          alt=" Dona">
+                        <h2>Dona</h2>
+                        <p>Puedes aportar desde los 500 pesos, todo suma y sirve para seguir rescatando animalitos de
+                          las
+                          calles.</p>
+                        <button type="submit" class="btn btn-secondary" disabled="disabled">
+                          Formulario desactivo</button>
+                      </div><!-- /.col-lg-4 -->
+                    </div><!-- /.row -->
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+
+
+</body>
+
+>>>>>>> 6df66a2c48b50d8f813695775ba8a5569e2e5603
 {% endblock %}

@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+from msilib.schema import Media
 from pathlib import Path
 import os
 
@@ -119,11 +120,25 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+<<<<<<< HEAD
 STATIC_URL = '/statics/'
+=======
+###########          CSS/ ESTILOS     #######################################
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'tienda/statics'),)
+>>>>>>> 6df66a2c48b50d8f813695775ba8a5569e2e5603
 
-# enlazar css
+####################################################################
+###########          MEDIA / PRODUCTOS     #######################################
 
-STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'tienda/statics'),)
+MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+####################################################################
+###########         JAVA SCRIPT     #######################################
+
+FILE_ROOT =  os.path.join(BASE_DIR, 'file')
+FILE_URL = '/file/'
 
 
 

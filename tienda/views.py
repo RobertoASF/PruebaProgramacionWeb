@@ -7,25 +7,37 @@ import random
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'home.html', {'name': 'gvrrido'})
 
-def tienda(request):
-    return render(request, 'tienda.html')  
+    
 
 def contacto(request):
-    return render(request, 'contacto.html')  
+    return render(request, 'contacto.html')
+
+def tienda(request):
+    return render(request, 'tienda.html')
+
 
 def donaciones(request):
     return render(request, 'donaciones.html')
 
+<<<<<<< HEAD
 def nosotros(request):
     return render(request, 'nosotros.html')    
+=======
 
-def perros(request):
-    return render(request, 'perros.html')   
+def tienda_original(request):
+    return render(request, 'tienda_original.html')
+
+>>>>>>> 6df66a2c48b50d8f813695775ba8a5569e2e5603
+
     
+<<<<<<< HEAD
 def gatos(request):
     return render(request, 'gatos.html') 
 
 def aves(request):
     return render(request, 'aves.html') 
+=======
+    
+>>>>>>> 6df66a2c48b50d8f813695775ba8a5569e2e5603

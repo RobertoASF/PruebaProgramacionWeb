@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 
-body {
+.body-cont {
 	font-family: 'Roboto', sans-serif;
 	background: linear-gradient(to bottom, rgb(254, 247, 203), white);
 }
@@ -14,10 +14,17 @@ main {
 	padding: 40px;
 }
 
+.formulario-contact{
+	background-color: #d6d6d6ac;
+	box-shadow: #000;
+
+}
+
 .formulario {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 20px;
+	padding: 35px;
 }
 
 .formulario__label {
