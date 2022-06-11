@@ -1,10 +1,5 @@
-const Clickbutton = document.querySelectorAll('.button')
-const tbody = document.querySelector('.tbody')
-let carrito = []
 
-Clickbutton.forEach(btn => {
-  btn.addEventListener('click', addToCarritoItem)
-})
+
 
 
 function addToCarritoItem(e){
@@ -63,15 +58,20 @@ function addItemCarrito(newItem){
 $(document).ready(function() {
   $('#div-btn1').on('click', function() {
       $('.navbar-nav li').removeClass('active');
+      $('#div-btn1').addClass('active');
       $("#central").load('Formulario');
       return false;
   });
-
  
 });
 
-/*Enlaces a documentos php*/
+
+/*Enlaces a documentos html*/
+
+
 $(document).ready(function() {
+
+
   $('#div-btnh01').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("#central").load('donaciones');
@@ -130,3 +130,6 @@ $(document).ready(function() {
 
 
   });
+
+
+ 

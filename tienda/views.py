@@ -18,7 +18,6 @@ def contacto(request):
 def donaciones(request):
     return render(request, 'donaciones.html')
 
-
 def nosotros(request):
     return render(request, 'nosotros.html')    
 
@@ -27,3 +26,6 @@ def perros(request):
     
 def gatos(request):
     return render(request, 'gatos.html') 
+
+def aves(request):
+    return render(request, 'aves.html') 
