@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import cx_Oracle
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +33,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_interface',
+    #'flat_responsive',
+    
+    'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tienda'
 ]
+
+X_FRAME_OPTIONS = "SAMEORIGIN"
+SILENCED_SYSTEM_CHECKS = ["security.W019"]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -74,13 +82,41 @@ WSGI_APPLICATION = 'django_web.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+'''
+
+#Para efectos de programar el puerto de la DB queda como 1539, ates de usar cambiar a 1521 -RS
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': '127.0.0.1:1539/xe',
+        'USER': 'django',
+        'PASSWORD': 'PruebaProgWeb2022',
+        'TEST': {
+            'USER': 'default_test',
+            'TBLSPACE': 'default_test_tbls',
+            'TBLSPACE_TMP': 'default_test_tbls_tmp',
+        },
+    },
+    'other': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': '127.0.0.1:1539/orcl',
+        'USER': 'django',
+        'PASSWORD': 'PruebaProgWeb2022',
+        'TEST': {
+            'USER': 'other_test',
+            'TBLSPACE': 'other_test_tbls',
+            'TBLSPACE_TMP': 'other_test_tbls_tmp',
+        },
+    },
+}
+
 
 
 # Password validation
@@ -105,7 +141,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'
 
@@ -137,3 +173,6 @@ STATICFILES_DIRS = ( os.path.join(BASE_DIR, 'tienda/static'),)
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = '/tienda/static/img/'
+MEDIA_ROOT = os.path.join(BASE_DIR, MEDIA_URL)

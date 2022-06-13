@@ -33,4 +33,7 @@ def aves(request):
 
 def carrito(request):
     return render(request, 'carrito.html')
+
+def login(request):
+    return render(request, 'login.html')
     
