@@ -40,3 +40,24 @@ class formulario(models.Model):
     def __str__(self):
         return self.correo
 
+
+
+class fundacion(models.Model):
+
+    nombre = models.CharField(max_length=50)
+
+    def __str__(self):
+        return self.nombre
+        
+
+
+class formularioDonaciones(models.Model):
+    nombre = models.CharField(max_length=75)
+    correo = models.EmailField(max_length=100)
+    telefono = models.CharField(max_length=14)
+    nombreFundacion = models.ForeignKey(fundacion, on_delete=models.PROTECT)
+    monto = models.IntegerField()
+
+    def __str__(self):
+        return self.nombre
+

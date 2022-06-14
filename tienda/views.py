@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import random
+
+from tienda.models import formulario
+
 # import string
 
 # Create your views here.
@@ -19,6 +22,7 @@ def contacto(request):
 def donaciones(request):
     return render(request, 'donaciones.html')
 
+
 def nosotros(request):
     return render(request, 'nosotros.html')
 
@@ -36,4 +40,31 @@ def carrito(request):
 
 def login(request):
     return render(request, 'login.html')
+    
+
+
+from .forms import contactoFundacion
+
+
+
+
+def donacion(request):
+
+    data = {
+        'form' : contactoFundacion()
+    }
+
+    if request.method == 'POST':
+        formularioDon = contactoFundacion(data=request.POST)
+        if formularioDon.is_valid():
+            formularioDon.save()
+            data["mensaje"] = "GRACIAS POR TU DONACION "
+        else:
+            data['form'] = formularioDon
+
+    
+
+    return render(request, 'donacion.html', data)
+
+
     

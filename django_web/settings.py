@@ -35,7 +35,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'admin_interface',
     #'flat_responsive',
-    
     'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -90,12 +89,11 @@ DATABASES = {
     }
 }
 '''
-
 #Para efectos de programar el puerto de la DB queda como 1539, ates de usar cambiar a 1521 -RS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': '127.0.0.1:1521/xe',
+        'NAME': '127.0.0.1:1521/rs',
         'USER': 'django',
         'PASSWORD': 'PruebaProgWeb2022',
         'TEST': {

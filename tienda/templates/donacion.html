@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+
+<br><br>
+<br>
+<form class="formDonacion" action="" method="POST">
+    {% csrf_token %}
+    {{form}}
+    <br>
+    <button class="btn btn-primary" type="submit">Button</button>
+    {{mensaje}}
+    <br>
+</form>   
+
+{% endblock %}

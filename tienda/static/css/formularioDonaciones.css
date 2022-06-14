@@ -1,0 +1,41 @@
+.formDonacion button{
+
+    margin-top: 5px;
+    background-color: blue;
+    text-align: center;
+    width: 30%;
+    margin: 0px 280px;
+    margin-bottom: 15px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 15;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input, optgroup, select, textarea {
+    margin: 16;
+    
+}
+
+form {
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.425);
+    margin: 50px 500px;
+}
+
+form label , input{
+    margin-top: 10px;
+    
+}
+
+input #monto {
+    width: 20px;
+}
+
+
+
+
+
+
