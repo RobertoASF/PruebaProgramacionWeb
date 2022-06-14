@@ -1,7 +1,7 @@
 import code
 from distutils.command.upload import upload
 from mailbox import NoSuchMailboxError
-from os import ST_MANDLOCK
+from platform import mac_ver
 from statistics import correlation
 from unicodedata import name
 from django.db import models
@@ -26,3 +26,17 @@ class Users(models.Model):
     
     def __str__(self):
         return self.nombre
+
+class formulario(models.Model):
+    auto_increment_id = models.AutoField(primary_key=True)
+    nombre = models.CharField(max_length=75)
+    apellido = models.CharField(max_length=100)
+    correo = models.CharField(max_length=100)
+    telefono = models.CharField(max_length=14)
+    region = models.CharField(max_length=50)
+    comuna = models.CharField(max_length=50)
+    direccion = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.correo
+
