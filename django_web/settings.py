@@ -93,7 +93,7 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': '127.0.0.1:1521/rs',
+        'NAME': '127.0.0.1:1521/xe',
         'USER': 'django',
         'PASSWORD': 'PruebaProgWeb2022',
         'TEST': {

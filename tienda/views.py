@@ -41,12 +41,7 @@ def carrito(request):
 def login(request):
     return render(request, 'login.html')
     
-
-
 from .forms import contactoFundacion
-
-
-
 
 def donacion(request):
 
@@ -61,8 +56,6 @@ def donacion(request):
             data["mensaje"] = "GRACIAS POR TU DONACION "
         else:
             data['form'] = formularioDon
-
-    
 
     return render(request, 'donacion.html', data)
 
