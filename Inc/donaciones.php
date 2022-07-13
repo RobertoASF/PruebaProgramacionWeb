@@ -117,7 +117,7 @@
           <!-- Modal body -->
           <div class="modal-body">
             <center>
-              <img src="img/Fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
+              <img src="img/fundacion huella animal.png" alt="Fundacion huella animal" class="w-75">
             </center>
            <p>Fundación Huella Animal es una organización sin fines de lucro que nace el año 2015 con el propósito de dar solución a la problemática de Bienestar Animal y
             Tenencia Responsable de Mascotas y Animales de Compañía en Chile. Contamos con un equipo de voluntarios profesional y multidisciplinario, comprometido con el logro de nuestra misión.
