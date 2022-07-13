@@ -69,7 +69,7 @@ $(document).ready(function() {
     $('#div-btnh03').removeClass('active');
     $('#div-btnh04').removeClass('active');
     $('#div-btnh00').removeClass('active');
-    $("div-btnh05").addClass("active");
+    $("#div-btnh05").addClass("active");
     $("#central").load('index');
     return false;
   });
@@ -78,7 +78,7 @@ $(document).ready(function() {
       $('.navbar-nav li').removeClass('active');
       $("div-btnh01").addClass("active");
 
-      $("#central").load('donaciones.html');
+      $("#central").load('inc/donaciones.php');
       return false;
   });
 
@@ -91,7 +91,7 @@ $(document).ready(function() {
   $('#div-btnh03').on('click', function() {
       $('.navbar-nav li').removeClass('active');
       $("div-btnh03").addClass("active");
-      $("#central").load('contacto');
+      $("#central").load('inc/contacto.php');
       return false;
   });
 
@@ -117,7 +117,7 @@ $(document).ready(function() {
 
   $('#div-btnc02').on('click', function() {
     $('.carr').removeClass('active');
-    $("#central").load('contacto.html');
+    $("#central").load('inc/contacto.php');
     return false;
   });
 
