@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 import random
 
-from tienda.models import formulario
+from tienda.models import formulario,Producto
 
 # import string
 
@@ -58,6 +58,18 @@ def donacion(request):
             data['form'] = formularioDon
 
     return render(request, 'donacion.html', data)
+
+
+##########################################################################################################################
+from .serializers import productoSerializer
+from rest_framework import viewsets
+
+
+
+
+class ProductoViewSet(viewsets.ModelViewSet):
+    queryset =Producto.objects.all()
+    serializer_class = productoSerializer
 
 
     
