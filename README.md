@@ -4,6 +4,8 @@ Prueba del curso de Programacion Web
 ## Importante
 
  Para utilizar todas las características de la página ejecutar con live-server. 
+ https://documentotributariocl-my.sharepoint.com/:p:/g/personal/roberto_sanchez_onvision_net/Ecl4PwqYC1hOmJW1ka3PDvkBOLfVbVq9RsryhPaRXKM0CA?e=uU48Gg
+ 
 
 ## Integrantes:
 
